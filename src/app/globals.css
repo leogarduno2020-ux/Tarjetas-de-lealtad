@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --color-fondo: #f7f7f8;
+  --color-superficie: #ffffff;
+  --color-borde: #e4e4e7;
+  --color-tinta: #18181b;
+  --color-tinta-suave: #71717a;
+
+  --color-marca: #0f766e;
+  --color-marca-suave: #ccfbf1;
+  --color-marca-oscuro: #0d5f59;
+
+  --color-alerta: #b91c1c;
+  --color-alerta-suave: #fee2e2;
+  --color-exito: #15803d;
+  --color-exito-suave: #dcfce7;
+  --color-aviso: #a16207;
+  --color-aviso-suave: #fef9c3;
+
+  --radius-tarjeta: 0.875rem;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-fondo);
+    color: var(--color-tinta);
+    font-family:
+      ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, sans-serif;
+    /* Respeta la barra inferior del navegador en iOS. */
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  /* En móvil, iOS hace zoom si el input mide menos de 16px. */
+  input,
+  select,
+  textarea,
+  button {
+    font-size: 16px;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-marca);
+    outline-offset: 2px;
+  }
+}
