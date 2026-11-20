@@ -1,0 +1,138 @@
+@font-face{font-family:'Anton';src:url('fonts/anton-latin-400-normal.woff2') format('woff2');font-weight:400}
+@font-face{font-family:'Source Serif 4';src:url('fonts/source-serif-4-latin-400-normal.woff2') format('woff2');font-weight:400;font-style:normal}
+@font-face{font-family:'Source Serif 4';src:url('fonts/source-serif-4-latin-400-italic.woff2') format('woff2');font-weight:400;font-style:italic}
+@font-face{font-family:'Source Serif 4';src:url('fonts/source-serif-4-latin-600-normal.woff2') format('woff2');font-weight:600;font-style:normal}
+@font-face{font-family:'Source Serif 4';src:url('fonts/source-serif-4-latin-700-normal.woff2') format('woff2');font-weight:700;font-style:normal}
+@font-face{font-family:'Playfair Display';src:url('fonts/playfair-display-latin-400-italic.woff2') format('woff2');font-weight:400;font-style:italic}
+@font-face{font-family:'Playfair Display';src:url('fonts/playfair-display-latin-700-italic.woff2') format('woff2');font-weight:700;font-style:italic}
+
+:root{
+  --ink:#16171b; --paper:#f8f2e8; --red:#d62839; --teal:#17706e; --mustard:#f2b134;
+  --blush:#f4dcd4; --mint:#d9eae4; --grey:#5d5b58; --line:#cfc6b8;
+}
+@page{size:215.9mm 279.4mm;margin:0}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#777}
+body{font-family:'Source Serif 4',Georgia,serif;font-size:9.4pt;line-height:1.42;color:var(--ink);-webkit-hyphens:auto;hyphens:auto}
+.page{width:215.9mm;height:279.4mm;position:relative;overflow:hidden;background:var(--paper);break-after:page;page-break-after:always}
+.page:last-child{break-after:auto;page-break-after:auto}
+.in{position:absolute;left:14mm;right:14mm;top:16mm;bottom:15mm;display:flex;flex-direction:column;gap:4.5mm}
+.runhead{position:absolute;top:7mm;left:14mm;right:14mm;display:flex;justify-content:space-between;font-family:'Anton';font-size:7.6pt;letter-spacing:.16em;text-transform:uppercase;border-bottom:.35mm solid var(--ink);padding-bottom:1.4mm}
+.runhead span:first-child{color:var(--red)}
+.folio{position:absolute;bottom:6.5mm;left:14mm;right:14mm;display:flex;justify-content:space-between;align-items:center;font-family:'Anton';font-size:7.6pt;letter-spacing:.12em;text-transform:uppercase;color:var(--grey)}
+.folio b{background:var(--ink);color:#fff;padding:.4mm 2.4mm;font-weight:400;font-size:9pt;letter-spacing:.06em}
+
+h1,h2,h3,.anton{font-family:'Anton',Impact,sans-serif;font-weight:400;text-transform:uppercase;margin:0}
+h1{font-size:34pt;line-height:1.04;-webkit-hyphens:none;hyphens:none;letter-spacing:.005em}
+h2{font-size:15pt;line-height:1.05;letter-spacing:.02em}
+h3{font-size:10.5pt;line-height:1.1;letter-spacing:.06em}
+.kicker{font-family:'Anton';font-size:8.6pt;letter-spacing:.2em;text-transform:uppercase;color:var(--red);margin:0 0 1.6mm}
+.deck{font-family:'Playfair Display',serif;font-style:italic;font-size:12pt;line-height:1.3;margin:2.2mm 0 0;color:#2b2c31}
+p{margin:0 0 2.4mm;orphans:2;widows:2}
+.cols2{column-count:2;column-gap:7mm;column-fill:balance}
+.cols3{column-count:3;column-gap:6mm}
+.cols2 p:last-child,.cols3 p:last-child{margin-bottom:0}
+.dc::first-letter{font-family:'Anton';float:left;font-size:35pt;line-height:.82;padding:1.2mm 1.6mm 0 0;color:var(--red)}
+.sub{font-family:'Anton';text-transform:uppercase;letter-spacing:.07em;font-size:10pt;color:var(--teal);margin:0 0 1mm;break-after:avoid}
+.small{font-size:8.2pt;line-height:1.35}
+.tiny{font-size:7.6pt;line-height:1.3;color:var(--grey)}
+b,strong{font-weight:700}
+a{color:inherit;text-decoration:none}
+
+/* fotos */
+figure{margin:0;position:relative}
+.ph{position:relative;overflow:hidden;background:#222;min-height:20mm}
+.ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ph figcaption{position:absolute;left:0;bottom:0;right:0;font-family:'Source Serif 4';font-size:7.3pt;line-height:1.25;color:#fff;padding:5mm 2.4mm 1.4mm;background:linear-gradient(transparent,rgba(0,0,0,.68))}
+.grow{flex:1 1 auto}
+
+/* chips de nivel */
+.lvl{display:inline-block;font-family:'Anton';font-size:7.4pt;letter-spacing:.14em;text-transform:uppercase;background:var(--red);color:#fff;padding:.6mm 2.2mm;margin-right:1.4mm;vertical-align:1px}
+.lvl.t{background:var(--teal)} .lvl.k{background:var(--ink)} .lvl.m{background:var(--mustard);color:var(--ink)}
+
+/* cajas */
+.box{border:.4mm solid var(--ink);padding:3.4mm 4mm;background:#fff}
+.box.r{background:var(--red);color:#fff;border-color:var(--red)}
+.box.k{background:var(--ink);color:#fff;border-color:var(--ink)}
+.box.t{background:var(--mint);border-color:var(--teal)}
+.box.b{background:var(--blush);border-color:var(--red)}
+.box.m{background:#fbe6b0;border-color:var(--mustard)}
+.box h3{margin-bottom:1.6mm}
+.box p:last-child{margin-bottom:0}
+.box ul{margin:0;padding-left:4mm} .box li{margin:0 0 1mm}
+.pull{font-family:'Playfair Display',serif;font-style:italic;font-weight:700;font-size:15pt;line-height:1.2;color:var(--red);border-top:.8mm solid var(--red);border-bottom:.3mm solid var(--red);padding:2.6mm 0}
+.stat{font-family:'Anton';font-size:36pt;line-height:.95;color:var(--red)}
+.stat.w{color:#fff} .stat.k{color:var(--ink)}
+.statl{font-size:8.2pt;line-height:1.3}
+.q{border-left:1.2mm solid var(--mustard);background:#fff7e0;padding:2.6mm 3.6mm;font-family:'Playfair Display',serif;font-style:italic;font-size:10pt;line-height:1.3}
+.q b{font-family:'Anton';font-style:normal;font-weight:400;font-size:8pt;letter-spacing:.16em;text-transform:uppercase;color:var(--red);display:block;margin-bottom:.8mm}
+
+/* tablas */
+table{border-collapse:collapse;width:100%;font-size:8.3pt;line-height:1.3}
+th{font-family:'Anton';font-weight:400;text-transform:uppercase;letter-spacing:.09em;font-size:8.4pt;text-align:left;background:var(--ink);color:#fff;padding:1.7mm 2.2mm}
+td{padding:1.7mm 2.2mm;border-bottom:.25mm solid var(--line);vertical-align:top;background:#fff}
+td:first-child{font-weight:700;background:#f0e8da}
+tr:nth-child(even) td:not(:first-child){background:#fbf7f0}
+table.t2 th:nth-child(2){background:var(--teal)} table.t2 th:nth-child(3){background:var(--red)}
+.srcnote{font-size:7.5pt;color:var(--grey);line-height:1.3}
+
+/* flex helpers */
+.row{display:flex;gap:5mm} .row>*{min-width:0}
+.c1{flex:1} .c2{flex:2} .c3{flex:3}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:4mm}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:4mm}
+.rule{height:.35mm;background:var(--ink);margin:1mm 0}
+ol.num,ul.dot{margin:0;padding-left:4.4mm} ol.num li,ul.dot li{margin:0 0 1.2mm}
+.blank{display:inline-block;border-bottom:.3mm solid var(--ink);min-width:48mm;height:4.4mm;vertical-align:bottom}
+.fill{border-bottom:.3mm solid var(--grey);height:6.4mm}
+
+/* portada */
+.cover{background:#0b2b2c;color:#fff}
+.cover .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:35% 50%}
+.cover .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,22,24,.78) 0%,rgba(6,22,24,.05) 30%,rgba(6,22,24,.0) 48%,rgba(6,22,24,.82) 78%,rgba(6,22,24,.95) 100%)}
+.cover .top{position:absolute;left:12mm;right:12mm;top:9mm}
+.cover .band{display:flex;justify-content:space-between;font-family:'Anton';font-size:8pt;letter-spacing:.2em;text-transform:uppercase;color:#fff;border-bottom:.4mm solid rgba(255,255,255,.7);padding-bottom:1.6mm}
+.cover .mast{font-family:'Anton';text-transform:uppercase;font-size:84pt;line-height:.9;letter-spacing:.005em;margin:3mm 0 0;color:#fff;white-space:nowrap}
+.cover .mast em{color:var(--red);font-style:normal}
+.cover .tag{font-family:'Playfair Display';font-style:italic;font-size:12pt;margin-top:1.4mm;color:#fff}
+.cover .main{position:absolute;left:12mm;right:12mm;bottom:56mm}
+.cover .big{font-family:'Anton';text-transform:uppercase;font-size:83pt;line-height:.88;letter-spacing:.005em}
+.cover .big span{background:var(--red);padding:0 3mm;display:inline-block;margin-top:1.6mm}
+.cover .sub2{font-family:'Playfair Display';font-style:italic;font-size:14pt;line-height:1.25;margin-top:4mm;max-width:150mm}
+.cover .tease{position:absolute;left:12mm;right:12mm;bottom:19mm;display:grid;grid-template-columns:repeat(3,1fr);gap:4mm}
+.cover .tease div{border-top:.7mm solid var(--red);padding-top:1.8mm;font-size:8.6pt;line-height:1.3;font-weight:600}
+.cover .tease b{font-family:'Anton';font-weight:400;color:var(--mustard);letter-spacing:.1em;font-size:8.6pt;display:block;margin-bottom:.6mm}
+.cover .foot{position:absolute;left:12mm;right:12mm;bottom:7mm;display:flex;justify-content:space-between;font-size:7.8pt;letter-spacing:.04em;line-height:1.3}
+.cover .foot b{font-family:'Anton';font-weight:400;letter-spacing:.14em;text-transform:uppercase}
+.credit-v{position:absolute;right:3.2mm;top:50%;transform:rotate(90deg) translateX(50%);transform-origin:right center;font-size:6.8pt;color:rgba(255,255,255,.75);white-space:nowrap}
+
+/* índice */
+.toc li{list-style:none;display:flex;align-items:baseline;gap:2.4mm;border-bottom:.25mm solid var(--line);padding:1.5mm 0;font-size:9pt;line-height:1.2}
+.toc{margin:0;padding:0}
+.toc .n{font-family:'Anton';font-size:15pt;color:var(--red);min-width:9mm;line-height:1}
+.toc .s{font-family:'Anton';font-size:6.6pt;letter-spacing:.14em;color:var(--grey);text-transform:uppercase;display:block}
+.toc a{display:block}
+
+/* esquema ciclo */
+.cycle{display:flex;align-items:center;justify-content:space-between;gap:1.5mm}
+.cycle .nd{flex:1;text-align:center;padding:2.2mm 1.6mm;font-size:8pt;line-height:1.2;font-weight:600;border:.35mm solid var(--ink);background:#fff}
+.cycle .nd.hot{background:var(--red);color:#fff;border-color:var(--red)}
+.cycle .nd.cool{background:var(--teal);color:#fff;border-color:var(--teal)}
+.cycle .ar{font-family:'Anton';font-size:12pt;color:var(--red)}
+.venn{display:flex}
+
+.wheel{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm}
+.wheel .it{background:#fff;border:.35mm solid var(--ink);padding:2.6mm 3mm;position:relative}
+.wheel .it i{font-family:'Anton';font-style:normal;font-size:20pt;line-height:1;color:var(--red);display:block}
+.wheel .it b{font-family:'Anton';font-weight:400;letter-spacing:.06em;text-transform:uppercase;font-size:9.6pt;display:block;margin:.4mm 0 .8mm}
+.wheel .it span{font-size:8pt;line-height:1.3;display:block}
+.sem{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm}
+.sem div{padding:2.4mm 3mm;font-size:8.2pt;line-height:1.3;border-radius:1mm}
+.sem .g{background:#cfe8d6;border:.3mm solid #2b8a4b} .sem .y{background:#fbe6b0;border:.3mm solid #c88a00} .sem .rd{background:#f6c5c5;border:.3mm solid var(--red)}
+.sem b{font-family:'Anton';font-weight:400;letter-spacing:.1em;text-transform:uppercase;font-size:8.4pt;display:block;margin-bottom:.6mm}
+.apa{font-size:7.5pt;line-height:1.28;padding-left:5mm;text-indent:-5mm;margin:0 0 1.2mm;word-break:break-word}
+.apa i{font-style:italic}
+
+table.tight td{padding:.9mm 2.2mm}
+
+.in.sb{justify-content:space-between}

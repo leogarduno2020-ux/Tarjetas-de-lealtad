@@ -1,0 +1,210 @@
+{
+ "portada": {
+  "title": "Quiet Moments (Unsplash).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Quiet_Moments_(Unsplash).jpg",
+  "license": "CC0",
+  "artist": "Niti K. inhalexhale",
+  "w": 5456,
+  "h": 3064,
+  "alias": "portada",
+  "px": [
+   3840,
+   2156
+  ]
+ },
+ "lluvia": {
+  "title": "Rain Drops On The Window (68419527).jpeg",
+  "page": "https://commons.wikimedia.org/wiki/File:Rain_Drops_On_The_Window_(68419527).jpeg",
+  "license": "CC BY 3.0",
+  "artist": "Joshua Sampson",
+  "w": 2048,
+  "h": 1365,
+  "alias": "lluvia",
+  "px": [
+   1920,
+   1280
+  ]
+ },
+ "niebla": {
+  "title": "Misty Monochromatic Walks (Unsplash).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Misty_Monochromatic_Walks_(Unsplash).jpg",
+  "license": "CC0",
+  "artist": "Philippe Mignot photofil",
+  "w": 5760,
+  "h": 3840,
+  "alias": "niebla",
+  "px": [
+   1920,
+   1280
+  ]
+ },
+ "caminar": {
+  "title": "Walking alone (Unsplash).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Walking_alone_(Unsplash).jpg",
+  "license": "CC0",
+  "artist": "Kelly Sikkema kelsikkema",
+  "w": 3000,
+  "h": 1987,
+  "alias": "caminar",
+  "px": [
+   1920,
+   1272
+  ]
+ },
+ "chaqueta": {
+  "title": "Young woman in leather jacket (Unsplash).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Young_woman_in_leather_jacket_(Unsplash).jpg",
+  "license": "CC0",
+  "artist": "Léa Dubedout leadbt",
+  "w": 4272,
+  "h": 2848,
+  "alias": "chaqueta",
+  "px": [
+   1920,
+   1280
+  ]
+ },
+ "concreto": {
+  "title": "Woman lying on concrete (Unsplash).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Woman_lying_on_concrete_(Unsplash).jpg",
+  "license": "CC0",
+  "artist": "Eli DeFaria elidefaria",
+  "w": 3648,
+  "h": 5472,
+  "alias": "concreto",
+  "px": [
+   1920,
+   2880
+  ]
+ },
+ "banca": {
+  "title": "Lonely Park Bench (49497870088).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Lonely_Park_Bench_(49497870088).jpg",
+  "license": "Public domain",
+  "artist": "blm_mtdks",
+  "w": 2700,
+  "h": 1800,
+  "alias": "banca",
+  "px": [
+   1920,
+   1280
+  ]
+ },
+ "retrato": {
+  "title": "Brunette woman portrait (Unsplash).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Brunette_woman_portrait_(Unsplash).jpg",
+  "license": "CC0",
+  "artist": "Christopher Campbell chrisjoelcampbell",
+  "w": 5184,
+  "h": 3456,
+  "alias": "retrato",
+  "px": [
+   1920,
+   1280
+  ]
+ },
+ "muro": {
+  "title": "Brunette woman near brick wall (Unsplash).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Brunette_woman_near_brick_wall_(Unsplash).jpg",
+  "license": "CC0",
+  "artist": "Martin Miranda martinmiranda",
+  "w": 4288,
+  "h": 2848,
+  "alias": "muro",
+  "px": [
+   1920,
+   1275
+  ]
+ },
+ "escribir": {
+  "title": "Pen-writing-notes-studying.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pen-writing-notes-studying.jpg",
+  "license": "CC0",
+  "artist": "Tookapic",
+  "w": 4752,
+  "h": 3168,
+  "alias": "escribir",
+  "px": [
+   1920,
+   1280
+  ]
+ },
+ "cuaderno": {
+  "title": "Woman writing on a notebook with a pen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Woman_writing_on_a_notebook_with_a_pen.jpg",
+  "license": "CC0",
+  "artist": "Kristin Hardwick",
+  "w": 5760,
+  "h": 3840,
+  "alias": "cuaderno",
+  "px": [
+   1920,
+   1280
+  ]
+ },
+ "manos": {
+  "title": "Close up parent holding hands of little kid girl.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Close_up_parent_holding_hands_of_little_kid_girl.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Shixart1985",
+  "w": 6016,
+  "h": 4016,
+  "alias": "manos",
+  "px": [
+   1920,
+   1282
+  ]
+ },
+ "carrusel": {
+  "title": "Central Park Carousel snow jeh.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Central_Park_Carousel_snow_jeh.JPG",
+  "license": "CC0",
+  "artist": "Jim.henderson",
+  "w": 3812,
+  "h": 2658,
+  "alias": "carrusel",
+  "px": [
+   1920,
+   1339
+  ]
+ },
+ "cisne": {
+  "title": "Mute swan and cygnets (30899).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mute_swan_and_cygnets_(30899).jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Rhododendrites",
+  "w": 3530,
+  "h": 2458,
+  "alias": "cisne",
+  "px": [
+   1920,
+   1337
+  ]
+ },
+ "fogata": {
+  "title": "Stand by the fire (Unsplash).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Stand_by_the_fire_(Unsplash).jpg",
+  "license": "CC0",
+  "artist": "Janko Ferlič thepootphotographer",
+  "w": 6385,
+  "h": 4912,
+  "alias": "fogata",
+  "px": [
+   1920,
+   1477
+  ]
+ },
+ "nieve": {
+  "title": "Alone in the snow (Unsplash).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Alone_in_the_snow_(Unsplash).jpg",
+  "license": "CC0",
+  "artist": "Greg Rakozy grakozy",
+  "w": 4000,
+  "h": 6000,
+  "alias": "nieve",
+  "px": [
+   1920,
+   2880
+  ]
+ }
+}
