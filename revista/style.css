@@ -136,3 +136,26 @@ ol.num,ul.dot{margin:0;padding-left:4.4mm} ol.num li,ul.dot li{margin:0 0 1.2mm}
 table.tight td{padding:.9mm 2.2mm}
 
 .in.sb{justify-content:space-between}
+
+/* ===== v2: más aire, menos cajas ===== */
+.bleed{margin-left:-14mm;margin-right:-14mm}
+.lead{font-size:11.4pt;line-height:1.46}
+.lv{font-family:'Playfair Display',serif;font-style:italic;font-size:8.8pt;color:var(--red);display:block;margin-bottom:1mm}
+.tag{font-family:'Anton';text-transform:uppercase;letter-spacing:.16em;font-size:7.6pt;color:var(--teal);display:block;margin:0 0 1mm}
+.side{border-top:.8mm solid var(--red);padding-top:2mm}
+.tint{background:#efe6d6;padding:3.6mm 4.4mm}
+.band{background:var(--red);color:#fff;padding:4.6mm 6mm}
+.band.k{background:var(--ink)}
+.bigq{font-family:'Playfair Display',serif;font-style:italic;font-weight:700;font-size:19pt;line-height:1.18;color:var(--red)}
+.ql{font-family:'Playfair Display',serif;font-style:italic;font-size:10.6pt;line-height:1.35;color:#3a3a40}
+ul.plain{margin:0;padding:0;list-style:none} ul.plain li{padding:1.3mm 0;border-bottom:.25mm solid var(--line)}
+ul.plain li b{color:var(--red);font-family:'Anton';font-weight:400;letter-spacing:.06em;margin-right:2mm}
+.p10{font-size:10.4pt;line-height:1.5}
+.tl{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6mm}
+.tl h4{font-family:'Anton';font-weight:400;text-transform:uppercase;letter-spacing:.08em;font-size:10pt;margin:0 0 1mm;color:var(--ink)}
+.tl p{font-size:9.4pt;line-height:1.38;margin:0}
+.num6{display:grid;grid-template-columns:repeat(3,1fr);gap:5mm 6mm}
+.num6 div{border-top:.5mm solid var(--ink);padding-top:1.6mm}
+.num6 i{font-family:'Anton';font-style:normal;color:var(--red);font-size:17pt;line-height:1;display:block}
+.num6 b{font-family:'Anton';font-weight:400;text-transform:uppercase;letter-spacing:.06em;font-size:9.6pt;display:block}
+.num6 span{font-size:8.8pt;line-height:1.3;display:block}
