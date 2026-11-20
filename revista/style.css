@@ -159,3 +159,30 @@ ul.plain li b{color:var(--red);font-family:'Anton';font-weight:400;letter-spacin
 .num6 i{font-family:'Anton';font-style:normal;color:var(--red);font-size:17pt;line-height:1;display:block}
 .num6 b{font-family:'Anton';font-weight:400;text-transform:uppercase;letter-spacing:.06em;font-size:9.6pt;display:block}
 .num6 span{font-size:8.8pt;line-height:1.3;display:block}
+
+/* ===== v3: composiciones distintas por página ===== */
+.abs{position:absolute}
+.ph.abs{min-height:0}
+.page.nohead .runhead{display:none}
+.folio .nx{font-family:'Playfair Display',serif;font-style:italic;text-transform:none;letter-spacing:0;font-size:8.8pt;color:var(--red);text-align:center;flex:1;padding:0 4mm}
+.folio .nx u{text-decoration:none;font-family:'Anton';font-style:normal;letter-spacing:.1em;text-transform:uppercase;font-size:7.4pt;color:var(--ink);margin-right:1.4mm}
+.folio.lt,.folio.lt .nx,.folio.lt .nx u{color:#fff}
+.page.lt .runhead{color:#fff;border-color:#fff}
+.page.lt .runhead span:first-child{color:#fff}
+.ovl{position:absolute;color:#fff}
+.shadeb{position:absolute;left:0;right:0;bottom:0;background:linear-gradient(transparent,rgba(5,10,12,.82))}
+.shadet{position:absolute;left:0;right:0;top:0;background:linear-gradient(rgba(5,10,12,.7),transparent)}
+.h1w{color:#fff}
+.idx{display:grid;grid-template-columns:1fr 1fr;gap:0 9mm}
+.idx div{display:flex;gap:3mm;align-items:baseline;border-bottom:.25mm solid var(--line);padding:1.9mm 0}
+.idx .n{font-family:'Anton';font-size:16pt;color:var(--red);min-width:9mm;line-height:1}
+.idx b{display:block;font-size:9.4pt;line-height:1.2}
+.idx i{display:block;font-family:'Playfair Display',serif;font-size:8.6pt;color:#555;line-height:1.25}
+.frame{box-shadow:3.2mm 3.2mm 0 var(--red)}
+.paper{background:#fffaf0;box-shadow:0 1.2mm 5mm rgba(0,0,0,.35);transform:rotate(-1deg)}
+.sidebar{position:absolute;left:0;top:0;bottom:0;width:78mm;background:#ecdfca}
+.circle{border-radius:50%;overflow:hidden}
+.tl.big p{font-size:11.2pt;line-height:1.45}.tl.big h4{font-size:12pt}
+.plain.lg li{padding:3.6mm 0}
+table.roomy td{padding:3.6mm 2.6mm}
+table.roomy th{padding:2.6mm 2.6mm}
